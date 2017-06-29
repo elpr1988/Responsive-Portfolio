@@ -1,0 +1,301 @@
+body {
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	color: #777777;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	height: 70px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+.YourName {
+	float: left;
+	height: 70px;
+	margin-left: 10%;
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+
+.navigation{
+	padding-top: 25px;
+	margin-left: 58%;
+	font-size: 15px;
+	color: #666666;
+	text-align: center;
+
+}
+
+.container {
+	width: 100%;
+}
+
+#heading {
+	margin-top: 0;
+	padding: 20px;
+	padding-left: 0;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	text-align: left;
+}
+
+#link {
+	display: inline-block;
+	border-right: 1px solid;
+	color: #cccccc;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+.section {
+	background: #ffffff;
+	float: left;
+	width: 35%;
+	padding: 20px;
+	margin: 10%;
+	margin-top: 1%;
+	border: 1px solid #dddddd;
+}
+
+#bio-image {
+	float: left;
+	width: 40%;
+	height: 30%;
+	margin: 0 10px 10px 10px;
+}
+
+#input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 30px;
+}
+
+#message {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 140px;
+}
+
+#Submit {
+	height: 30px;
+	width: 90px;
+	background: #4aaaa5;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+}
+.pics {
+	width: 100%;
+}
+.images {
+	float: left;
+	width: 80%;
+	height: 230px;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.gallery {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+h3 {
+	position: absolute;
+	bottom: 20px;
+	left: 25px;
+	width: 66%;
+	padding: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #4aaaa5;
+}
+
+.aside {
+	background: #ffffff;
+	float: left;
+	width: 20%;
+	padding: 20px;
+	margin-top: 1%;
+	border: 1px solid #dddddd;
+}
+
+#icons {
+	margin-left: 10%;
+	width: 20%;
+	height: 10%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+    bottom: 0;
+	height: 70px;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+}
+
+#Copyright {
+	margin-top: 30px;
+	text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+
+	.YourName {
+		margin-left: 8%;
+	}
+
+	.navigation {
+		margin-right: 15%;
+	}
+
+	.section {
+		width: 40%;	
+		margin-left: 8%;	
+		margin-right: 8%;
+	}
+
+	.pics {
+		width: 65%;
+	}
+
+	.images {
+		width: 300%;
+		margin-left: 0;
+		padding-top: 0;
+		padding-left: 1px;
+	}
+
+	.gallery {
+		float: none;
+	}
+
+	h3 {
+		width: 280%;
+		left: 0;
+	}
+
+	#bio-image {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#input, #message {
+		width: 99%;
+	}
+
+	.aside {
+		width: 28%;
+	}
+
+	#icons {
+		margin-left: 5%;
+		width: 25%;
+		height: 25%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.YourName {
+		margin-left: 2%;
+	}
+
+	.navigation {
+		margin-right: 0;
+	}
+
+	.section {
+		width: 90%;	
+		margin-left: 2%;	
+		margin-bottom: 3%;
+	}
+
+	.pics {
+		width: 210%;
+	}
+
+	.images {
+		width: 45%;
+	}
+
+	.gallery h3 {
+		width: 290px;
+		left: 0;
+	}
+
+	#bio-image {
+		width: 50%;
+	}
+
+	.aside {
+		width: 90%;
+		margin-left: 2%;
+	}
+
+	#icons {
+		width: 10%;
+		margin-left: 1%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.YourName {
+		width: 100%;
+		margin: 0;
+	}
+
+	.navigation {
+		height: 80px;
+		background: #ffffff;
+		border-bottom: 2px solid #cccccc; 
+		margin: auto;
+	}
+
+	#link {
+		padding-top: 10px;
+	}
+
+	.container {
+		padding-top: 40px;
+	}
+
+	.images {
+		width: 90%;
+	}
+
+	.gallery h3 {
+		width: 275px;
+		left: 0;
+	}
+
+	#bio-image {
+		width: 50%;
+	}
+
+	.aside {
+		width: 90%;
+		margin-left: 2%;
+	}
+
+	#icons {
+		width: 10%;
+		margin-left: 1%;
+	}
+}
